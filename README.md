@@ -53,7 +53,7 @@ This paper is still under review. The full paper and codes will be released when
 </p>
 
 <p align="center">
-  <img src="docs/fig2.jpeg" width = "100%" alt="System Framework" title="overview" />
+  <img src="docs/fig2.jpeg" width = "50%" alt="System Framework" title="overview" />
 </p>
 <p align="center">
   <strong> The comparison between traditional camera control framework and our VirCap </strong>
