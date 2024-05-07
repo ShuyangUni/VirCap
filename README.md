@@ -1,3 +1,12 @@
+<!--
+ * @Author: Shuyang Zhang
+ * @Date: 2024-05-07 21:41:50
+ * @LastEditors: ShuyangUni shuyang.zhang1995@gmail.com
+ * @LastEditTime: 2024-05-07 21:47:52
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by Shuyang Zhang, All Rights Reserved. 
+-->
 # VirCap: Virtual Camera Exposure Control based on Image Photometric Synthesis for Visual SLAM Application
 
 This is an official repository of
@@ -35,3 +44,17 @@ This paper is still under review. The full paper and codes will be released when
     4. ...
   * All the combinations are reasonable，the difference is that **when the exposure time is larger, the potential motion blur will be worse, but noise will be lower; vice versa**.
 * We design an image metric balancing both image motion blur and background noise, to select the base image from the bracket.
+
+<p align="center">
+  <img src="docs/fig1.jpeg" width = "100%" alt="Cover Fig" title="overview" />
+</p>
+<p align="center">
+  <strong> Image sequences in a drastic illuminance change scenario. Images with red circle indicate the first frame of illuminance change. </strong>
+</p>
+
+<p align="center">
+  <img src="docs/fig2.jpeg" width = "100%" alt="System Framework" title="overview" />
+</p>
+<p align="center">
+  <strong> The comparison between traditional camera control framework and our VirCap </strong>
+</p>
